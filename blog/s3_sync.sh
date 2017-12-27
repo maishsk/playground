@@ -1,6 +1,12 @@
 #!/bin/bash
+##########################################################################
+## Author:      Maish Saidel-Keesing
+## Description: Script used to sync changes from an FTP into an S3 bucket
+##              for the purpose of serving images from my blog from S3
+## Version:     1.0
+##########################################################################
 
-## Activate virtualenv 
+## Activate virtualenv
 source /home/centos/s3bucket/bin/activate
 
 ## Set variables
