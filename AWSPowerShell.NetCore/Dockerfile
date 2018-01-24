@@ -1,6 +1,6 @@
 FROM microsoft/powershell:latest
 
-LABEL maintainer="Maish Saidel-Keesing <maishsk@gmail.com>"" \
+LABEL maintainer="Maish Saidel-Keesing <maishsk@gmail.com>" \
       description="This Docker will allow you to run commands with Powershell \
       against your AWS infrastructure"
 
