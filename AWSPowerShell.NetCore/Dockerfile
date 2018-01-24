@@ -1,6 +1,7 @@
 FROM microsoft/powershell:latest
 
-MAINTAINER Maish Saidel-Keesing (maishsk@gmail.com)
+LABEL maintainer="Maish Saidel-Keesing <maishsk@gmail.com>" \
+      description="This Dockerfile will install the latest release of AWS Powershell" \
 
 ## Install the AWS Powershell module
 RUN pwsh -c \
