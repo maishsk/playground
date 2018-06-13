@@ -1,3 +1,4 @@
+#!/bin/bash
 # Create a new folder for the log files
 mkdir /var/log/bastion
 
