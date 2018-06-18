@@ -1,4 +1,4 @@
-resource "aws_vpc" "${var.project_name}" {
+resource "aws_vpc" "testvpc" {
     cidr_block = "${var.vpc_cidr}"
     enable_dns_hostnames = true
     tags {
