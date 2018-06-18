@@ -1,5 +1,5 @@
 variable "region" {
-        default = "eu-east-2"
+        default = "us-east-2"
 }
 
 variable "profile" {
