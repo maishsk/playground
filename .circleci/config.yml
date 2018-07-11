@@ -9,8 +9,6 @@ jobs:
           name: Check Scripts
           command: |
             find . -type f -name '*.sh' | wc -l
-  build-job:
-    ...
 
 workflows:
   version: 2
