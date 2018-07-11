@@ -9,15 +9,14 @@ jobs:
           name: Check Scripts
           command: |
             find . -type f -name '*.sh' | wc -l
+  build-job:
+    ...
 
 workflows:
   version: 2
   workflow:
     jobs:
       - shellcheck
-      - build-job:
-          requires:
-            - shellcheck
           filters:
             branches:
               only: master
