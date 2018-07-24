@@ -1,4 +1,4 @@
-FROM alpine:3.6
+FROM alpine:3.8
 MAINTAINER Maish Saidel-Keesing (maishsk@gmail.com)
 RUN apk --update add --no-cache python py-pip openssl ca-certificates && \
     apk --update add --no-cache --virtual build-dependencies \
