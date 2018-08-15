@@ -1,7 +1,6 @@
 #!/bin/bash
 
 ## Create a IAM policy as follows and attach it to your instance
-
 #
 # {
 #    "Version": "2012-10-17",
