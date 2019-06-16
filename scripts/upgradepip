@@ -2,6 +2,8 @@
 
 check=$(pip list --outdated --format=freeze --user)
 
-if [[ $? != 0 ]]; then
-   pip list --outdated --format=freeze --user | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install --upgrade --user
+if [ -z "$check" ]; then 
+    echo "No updates Needed"
+else
+    pip list --outdated --format=freeze --user | grep -v '^\-e' | cut -d = -f 1 | xargs -n1 pip install --upgrade --user
 fi
